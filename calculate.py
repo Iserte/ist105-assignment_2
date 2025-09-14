@@ -1,7 +1,8 @@
 import cgi
 import math
 
-print("Content-type: text/html\n")
+print("Assignment #2\n")
+print("Gustavo Iserte Bonfim - CT1010953\n")
 
 form = cgi.FieldStorage()
 a = float(form.getvalue("a", 1))
