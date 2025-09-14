@@ -1,15 +1,12 @@
-import cgi
+import sys
 import math
 
 print("Assignment #2", end="\n")
 print("Gustavo Iserte Bonfim - CT1010953", end="\n")
 
-form = cgi.FieldStorage()
-print(form, end="\n")
-
-a = float(form.getvalue("a", 1))
-b = float(form.getvalue("b", 1))
-c = float(form.getvalue("c", 1))
+a = float(sys.argv[1])
+b = float(sys.argv[2])
+c = float(sys.argv[3])
 
 print("A = ", a)
 print("B = ", b)
