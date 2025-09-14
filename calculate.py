@@ -28,7 +28,7 @@ print(f"""
     <pre>
 ===========================================
 Assignment #2
-Bonfim
+Gustavo Iserte Bonfim - CT1010953
 
 Final Result: {result:.1f}
 
